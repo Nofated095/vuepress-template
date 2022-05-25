@@ -26,7 +26,7 @@ $ yarn docs:build
 
 This command generates static content into the `.vuepress/dist` directory and can be served using any static contents hosting service.
 
-### Deployment
+### Deploy to GitHub
 
 Using SSH:
 
@@ -42,7 +42,9 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-#### Deploy to Vercel
+### Deploy to Vercel
+
+#### For the classic
 
 [![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/v2)
 
@@ -53,4 +55,17 @@ Remember to change `Build & Development Settings` in the settings of your projec
 |BUILD COMMAND|yarn docs:build|
 |OUTPUT DIRECTORY|/docs/.vuepress/dist|
 
-![Settings](./assets/settings.png)
+![Settings](./assets/classicsettings.png)
+
+#### For the project without `/docs`
+
+[![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/without-docs)
+
+Remember to change `Build & Development Settings` in the settings of your project in Vercel.
+
+|key|value|
+|:-:|:-:|
+|BUILD COMMAND|yarn build|
+|OUTPUT DIRECTORY|/.vuepress/dist|
+
+![Settings](./assets/nodocssettings.png)
