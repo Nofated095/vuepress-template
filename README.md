@@ -2,6 +2,8 @@
 
 This website is built using [VuePress 2](https://v2.vuepress.vuejs.org/), a static site generator.
 
+This is a [demo](https://vuepress-examples.9595095.xyz/) of the project.
+
 ### Installation
 
 ```
