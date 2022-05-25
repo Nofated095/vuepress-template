@@ -39,3 +39,11 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+#### Deploy to Vercel
+
+[![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/v2)
+
+Remember to change `Build & Development Settings` in the settings of your project in Vercel.
+
+![Settings](./assets/settings.png)
