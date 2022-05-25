@@ -44,9 +44,13 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Deploy to Vercel
 
-#### For the classic
+#### For the classic and theme-hexo
 
 [![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/v2)
+
+[![theme-hexo](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/theme-hexo)
+
+First button for classic, second button for theme-hexo.
 
 Remember to change `Build & Development Settings` in the settings of your project in Vercel.
 
@@ -59,7 +63,7 @@ Remember to change `Build & Development Settings` in the settings of your projec
 
 #### For the project without `/docs`
 
-[![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/without-docs)
+[![nodocs](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/without-docs)
 
 Remember to change `Build & Development Settings` in the settings of your project in Vercel.
 
