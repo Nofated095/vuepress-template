@@ -46,4 +46,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 Remember to change `Build & Development Settings` in the settings of your project in Vercel.
 
+|key|value|
+|:-:|:-:|
+|BUILD COMMAND|yarn docs:build|
+|OUTPUT DIRECTORY|/docs/.vuepress/dist|
+
 ![Settings](./assets/settings.png)
