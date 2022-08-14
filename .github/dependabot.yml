@@ -5,15 +5,15 @@
 
 version: 2
 updates:
-  - package-ecosystem: "yarn" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/v2/" # Location of package manifests
     schedule:
       interval: "daily"
-  - package-ecosystem: "yarn" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/without-docs/" # Location of package manifests
     schedule:
       interval: "daily"
-  - package-ecosystem: "yarn" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/theme-hope/" # Location of package manifests
     schedule:
       interval: "daily"
