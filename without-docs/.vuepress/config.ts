@@ -1,5 +1,5 @@
 import { defineUserConfig } from 'vuepress'
-const { defaultTheme } = require('@vuepress/theme-default')
+import { defaultTheme } from '@vuepress/theme-default
 
 export default defineUserConfig({
   base: '/',
