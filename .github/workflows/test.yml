@@ -29,4 +29,6 @@ jobs:
         restore-keys: npm-cache
     - run: npm install
       working-directory: ${{ matrix.working-directory }}
-    # - run: npm run build
+    - run: npm run build
+      working-directory: ${{ matrix.working-directory }}
+
