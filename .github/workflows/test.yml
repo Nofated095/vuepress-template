@@ -27,6 +27,6 @@ jobs:
         path: node_modules
         key: npm-cache
         restore-keys: npm-cache
-    - working-directory: ${{ matrix.working-directory }}
     - run: npm install
+      working-directory: ${{ matrix.working-directory }}
     # - run: npm run build
