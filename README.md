@@ -59,8 +59,6 @@ Remember to change `Build & Development Settings` in the settings of your projec
 |BUILD COMMAND|yarn docs:build|
 |OUTPUT DIRECTORY|/docs/.vuepress/dist|
 
-![Settings](./assets/classicsettings.png)
-
 #### For the project without `/docs`
 
 [![nodocs](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/without-docs)
@@ -71,5 +69,3 @@ Remember to change `Build & Development Settings` in the settings of your projec
 |:-:|:-:|
 |BUILD COMMAND|yarn build|
 |OUTPUT DIRECTORY|/.vuepress/dist|
-
-![Settings](./assets/nodocssettings.png)
