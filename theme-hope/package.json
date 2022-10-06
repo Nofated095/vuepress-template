@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.51",
-    "vuepress-theme-hope": "^2.0.0-beta.99"
+    "vuepress-theme-hope": "^2.0.0-beta.107"
   },
   "description": "VuePress example project",
   "main": "index.ts",
