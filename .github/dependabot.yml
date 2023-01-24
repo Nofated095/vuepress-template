@@ -8,12 +8,8 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/v2/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/without-docs/" # Location of package manifests
+    directory: "/root-docs/" # Location of package manifests
     schedule:
-      interval: "daily"
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/theme-hope/" # Location of package manifests
-    schedule:
-      interval: "daily"
+      interval: "weekly"
