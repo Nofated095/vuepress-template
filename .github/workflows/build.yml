@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        working-directory: [./v2, ./without-docs]
+        working-directory: [./v2, ./root-docs]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
