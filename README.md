@@ -2,8 +2,6 @@
 
 This website is built using [VuePress 2](https://v2.vuepress.vuejs.org/), a static site generator.
 
-This is a [demo](https://vuepress-examples.9595095.xyz/) of the project.
-
 ### Installation
 
 ```
@@ -13,7 +11,7 @@ $ yarn
 ### Local Development
 
 ```
-$ yarn docs:dev
+$ yarn dev
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -21,7 +19,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn docs:build
+$ yarn build
 ```
 
 This command generates static content into the `.vuepress/dist` directory and can be served using any static contents hosting service.
@@ -46,22 +44,18 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 #### For the classic and theme-hexo
 
-[![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/v2)
-
-[![theme-hexo](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/theme-hexo)
-
-First button for classic, second button for theme-hexo.
+[![v2](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-template/tree/master/v2)
 
 Remember to change `Build & Development Settings` in the settings of your project in Vercel.
 
 |key|value|
 |:-:|:-:|
-|BUILD COMMAND|yarn docs:build|
-|OUTPUT DIRECTORY|/docs/.vuepress/dist|
+|BUILD COMMAND|yarn build|
+|OUTPUT DIRECTORY|docs/.vuepress/dist|
 
 #### For the project without `/docs`
 
-[![nodocs](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-examples/tree/master/without-docs)
+[![root-docs](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nofated095/vuepress-template/tree/master/root-docs)
 
 Remember to change `Build & Development Settings` in the settings of your project in Vercel.
 
