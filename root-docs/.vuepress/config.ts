@@ -21,11 +21,11 @@ export default defineUserConfig({
       // NavbarGroup
       {
         text: 'Group',
-        children: ['/guide/create-a-page.md', '/guide/create-a-document.md'],
+        children: ['/guide/README.md', '/guide/create-a-page.md', '/guide/create-a-document.md'],
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/Nofated095/vuepress-examples',
+        link: 'https://github.com/Nofated095/vuepress-template',
       },
     ],
     // 侧边栏数组
@@ -44,10 +44,9 @@ export default defineUserConfig({
       '/pageatroot.md',
       {
         text: 'Guide',
-        link: '/guide/creat-a-page.md',
+        link: '/guide/README.md', 
         children: [
-          // SidebarItem
-          // 字符串 - 页面文件路径
+          '/guide/README.md', 
           '/guide/create-a-page.md',
           '/guide/create-a-document.md',
         ],
